@@ -1,0 +1,12 @@
+header{
+  display: flex;
+  justify-content: space-between;
+  padding: 18px 60px;
+  background-color: #009DE9;
+  .header__left{
+    display: flex;
+    li{
+      margin: 0 10px;
+    }
+  }
+}
