@@ -1,0 +1,42 @@
+.procedure {
+  padding: 60px 55px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  align-items: center;
+
+  .procedure__item {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: right;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #2B2E2D;
+    box-sizing: border-box;
+    width: 300px;
+    height: 250px;
+    background: #FFFFFF;
+    box-shadow: 2px 11px 16px rgba(100, 105, 108, 0.24);
+    border-radius: 45px;
+    padding: 60px 20px 35px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    img{
+      width: 68px;
+      height: 78px;
+    }
+
+    &:last-child {
+      margin: 35px auto;
+      align-self: center;
+    }
+
+  }
+}

@@ -1,4 +1,26 @@
 main{
-  min-height: 1129px;
-  background: linear-gradient(115.6deg, #3EB5F1 3.7%, #4E6FB3 59.81%, #3EB5F1 103.65%);
+  height: 1129px;
+}
+.container{
+  box-sizing: border-box;
+  background: url('../../../images/backgroundPages.png') no-repeat right bottom;
+  padding: 15px 25px;
+  height: 100%;
+  .container__title{
+    display: flex;
+    justify-content: space-between;
+    h2{
+      font-family: Open Sans, sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 26px;
+      line-height: 35px;
+      text-align: center;
+      text-transform: uppercase;
+      color: #2C2C33;
+    }
+    img{
+      align-self: flex-end;
+    }
+  }
 }

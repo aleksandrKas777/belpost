@@ -1,0 +1,1 @@
+export {ReceptionSchedule} from './ReceptionSchedule';

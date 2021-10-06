@@ -3,10 +3,19 @@ header{
   justify-content: space-between;
   padding: 18px 60px;
   background-color: #009DE9;
-  .header__left{
+  .header__left ul{
     display: flex;
     li{
       margin: 0 10px;
+    }
+  }
+  .header__right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    img{
+      height: 25px;
+      width: auto;
     }
   }
 }

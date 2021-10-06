@@ -1,7 +1,7 @@
-import slide1 from '../../img/slide1.jpg';
-import slide2 from '../../img/slide2.jpg';
-import btnPrevSlide from '../../img/btnPrevSlide.png';
-import btnNextSlide from '../../img/btnNextSlide.png';
+import slide1 from '../../images/slide1.jpg';
+import slide2 from '../../images/slide2.jpg';
+import btnPrevSlide from '../../images/btnPrevSlide.png';
+import btnNextSlide from '../../images/btnNextSlide.png';
 
 import './style/slider.scss'
 import {useState} from "react";
