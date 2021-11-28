@@ -1,13 +1,16 @@
 import './style/home.scss'
 import {NavLink} from "react-router-dom";
+import {strings} from "../../../../language";
 
 export const Home = () => {
+    // Административные процедуры
+
     return (
         <div className='home'>
             <NavLink to='/admin-procedure'>
                 <div className='home__item'>
                     <p>
-                        Административные процедуры
+                        {strings.adminProcedure}
                     </p>
                     <svg width="80" height="69" viewBox="0 0 80 69" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path fillRule="evenodd" clipRule="evenodd" d="M13.643 0.0344571C8.44593 0.0864183 8.19229
